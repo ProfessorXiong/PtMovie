@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PtMovieDay1</string>
+    <string-array name="counties">
+        <item>全部</item>
+        <item>宝安</item>
+        <item>南山</item>
+    </string-array>
 </resources>

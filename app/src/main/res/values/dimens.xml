@@ -1,5 +1,20 @@
 <resources>
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_main_title_textpadding">5dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="movie_logo_width">160dp</dimen>
+    <dimen name="movie_logo_height">200dp</dimen>
+    <dimen name="movie_item_layout_padding">2dp</dimen>
+    <dimen name="activity_title_height">50dp</dimen>
+    <dimen name="moviedetail_title_textsize">20sp</dimen>
+    <dimen name="moviedetail_toubu_height">240dp</dimen>
+    <dimen name="moviedetail_highlight_height">50dp</dimen>
+    <dimen name="moviedetail_haibao_height">100dp</dimen>
+    <dimen name="moviedetail_textview_padding">5dp</dimen>
+    <dimen name="moviedetail_logo_width">120dp</dimen>
+    <dimen name="moviedetail_logo_height">150dp</dimen>
+    <dimen name="moviedetail_tv_director_width">40dp</dimen>
+    <dimen name="changci_gallery_height">260dp</dimen>
+    <dimen name="changci_horizontalview_height">50dp</dimen>
 </resources>

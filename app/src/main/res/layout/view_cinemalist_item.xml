@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+    <TextView
+        android:id="@+id/cimema_item_tv_cinemaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="影院名称" />
+    <TextView
+        android:id="@+id/cinema_item_tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cimema_item_tv_cinemaname"
+        android:maxLines="1"
+        android:text="影院地址" />
+    <TextView
+        android:id="@+id/cimema_item_tv_countdes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cinema_item_tv_address"
+        android:text="剩余场次"/>
+    <TextView
+        android:id="@+id/cinema_item_tv_pricerange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="价格区间" />
+    <TextView
+        android:id="@+id/cinema_item_tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cinema_item_tv_address"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:text="距离"
+        />
+    <TextView
+        android:id="@+id/cinema_item_tv_cplist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/cimema_item_tv_countdes"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible"
+        android:text="比价商家"/>
+</RelativeLayout>

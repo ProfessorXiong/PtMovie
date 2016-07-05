@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--电影播放场次每个条目的view-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/view_changci_playtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放时间"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/view_changci_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="价格"/>
+        <TextView
+            android:id="@+id/view_changci_miaoshu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view_changci_playtime"
+            android:text="描述"/>
+        <TextView
+            android:id="@+id/view_changci_cplist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/view_changci_price"
+            android:visibility="invisible"
+            android:text="比价说明"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/view_changci_layout_cpcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
+

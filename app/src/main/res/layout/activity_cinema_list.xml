@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="#ffffffff">
+        <ImageView
+            android:id="@+id/activity_cinemalist_image_back"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_back_selector"
+            android:layout_centerVertical="true" />
+        <TextView
+            android:id="@+id/activity_cinemalist_tv_moviename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="电影标题"
+            android:textSize="@dimen/moviedetail_title_textsize"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/activity_cinemalist_linear_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+</LinearLayout>
